@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'SST';
+  src: url('./fonts/SSTLight.TTF') format('truetype'); /* Or .woff/.woff2 */
+}
+
 body {
+  font-family: 'SST';
   margin: 0;
   display: flex;
   justify-content: center;
@@ -8,14 +14,12 @@ body {
 }
 
 .clock-container {
-  color: #ffffff; /* White text */
-  font-family: 'Arial', sans-serif; /* Simple and clean font */
-  font-size: 48px; /* Big font for clear visibility */
-  padding: 10px 20px;
-  /* border: 2px solid #555555; Border similar to the subtle outline on PS4 UI */
-  /* border-radius: 10px; Rounded corners */
-  background-color: rgba(0, 0, 0, 0.6); /* Transparent background */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Light shadow effect */
+  color: #ffffff;
+  font-family: 'SST';
+  font-size: 48px;
+  padding: 0px 21px;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
 }
 
 #time {
